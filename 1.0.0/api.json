@@ -1,0 +1,23 @@
+{
+   "constructor": "M.control.getfeatureinfobylayersControl",
+   "parameters": [{
+      "type": "object",
+      "properties": [{
+         "type": "M.layer.WMS",
+         "name": "layers"
+      }, {
+         "type": "object",
+         "name": "options",
+         "properties":[
+         	{
+         	"type": "string",
+         	"name": "name"
+         	},
+         	{
+         	"type": "string",
+         	"name": "tooltip"
+         	}	
+         ]
+      }]
+   }]
+}
